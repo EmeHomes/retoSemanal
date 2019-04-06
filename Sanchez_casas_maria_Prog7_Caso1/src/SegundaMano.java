@@ -4,8 +4,8 @@ public class SegundaMano extends Coche{
 	int Km; //Esta variable indica el número de Kilómetros
 	String exPropietario; //Esta variable indica el nombre del antiguo propietario
 	
-	public SegundaMano(String matricula, String modelo, String color, int Km, String exPropietario) {
-			super(matricula, modelo, color);
+	public SegundaMano(String matricula, String modelo, String color, String tipoVehiculo, int Km, String exPropietario) {
+			super(matricula, modelo, color, tipoVehiculo);
 			this.Km = Km;
 			this.exPropietario = exPropietario;
 	}

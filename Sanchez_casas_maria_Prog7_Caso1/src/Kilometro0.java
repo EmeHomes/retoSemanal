@@ -2,8 +2,8 @@
 public class Kilometro0 extends Coche {
 	int Km; //Esta variable indica el número de Kilómetros
 	
-	public Kilometro0(String matricula, String modelo, String color, int Km) {
-		super(matricula, modelo, color);
+	public Kilometro0(String matricula, String modelo, String color, String tipoVehiculo, int Km) {
+		super(matricula, modelo, color, tipoVehiculo);
 		this.Km = Km;
 	}
 	
