@@ -43,7 +43,10 @@ public class Main {
 		System.out.println("Introduce un color");
 		String color = in.nextLine();
 		
-		Nuevo n1 = new Nuevo(matricula, modelo, color);
+		System.out.println("Introduce un tipo");
+		String tipoVehiculo = in.nextLine();
+		
+		Nuevo n1 = new Nuevo(matricula, modelo, color, tipoVehiculo);
 
 		System.out.println(n1.getInfo());
 		
@@ -61,10 +64,13 @@ public class Main {
 		System.out.println("Introduce un color");
 		String color = in.nextLine();
 		
+		System.out.println("Introduce un tipo");
+		String tipoVehiculo = in.nextLine();
+		
 		System.out.println("Introduce un kilometraje");
 		int Km = in.nextInt();
 		
-		Kilometro0 k1 = new Kilometro0(matricula, modelo, color, Km);
+		Kilometro0 k1 = new Kilometro0(matricula, modelo, color, tipoVehiculo, Km);
 	    
 		System.out.println(k1.getInfo());
 		
@@ -82,6 +88,9 @@ public class Main {
 		System.out.println("Introduce un color");
 		String color = in.nextLine();
 		
+		System.out.println("Introduce un tipo");
+		String tipoVehiculo = in.nextLine();
+		
 		System.out.println("Introduce un kilometraje");
 		int Km = in.nextInt();
 		
@@ -89,7 +98,7 @@ public class Main {
 		System.out.println("Introduce un antiguo propietario del vehículo");
 		String exPropietario = in.nextLine();
 		
-		SegundaMano s1 = new SegundaMano(matricula, modelo, color, Km, exPropietario);
+		SegundaMano s1 = new SegundaMano(matricula, modelo, color, tipoVehiculo, Km, exPropietario);
 	    
 		System.out.println(s1.getInfo());
 		
